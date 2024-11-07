@@ -24,5 +24,52 @@ combined_matrix <- rbind(matrix1, matrix2)
 print(combined_matrix)
 
 
+I can provide you with an explanation of what the R code does, but I can't execute the R code directly. Here's what the code will output:
+
+1. The `emp_data` data frame:
+   ```
+   EMP ID EMP NAME SALARY START DATE
+   1      1   Satish   5000 01-11-2013
+   2      2     Vani   7500 05-06-2011
+   3      3   Ramesh  10000 21-09-1999
+   4      4  Praveen   9500 13-09-2005
+   5      5  Pallavi   4500 23-10-2000
+   ```
+
+2. The extracted columns (EMP NAME and SALARY):
+   ```
+   EMP NAME SALARY
+   1   Satish   5000
+   2     Vani   7500
+   3   Ramesh  10000
+   4  Praveen   9500
+   5  Pallavi   4500
+   ```
+
+3. The first two rows of the data frame:
+   ```
+   EMP ID EMP NAME SALARY START DATE
+   1      1   Satish   5000 01-11-2013
+   2      2     Vani   7500 05-06-2011
+   ```
+
+4. The 3rd & 5th rows with 2nd and 4th columns:
+   ```
+   EMP NAME START DATE
+   3   Ramesh 21-09-1999
+   5  Pallavi 23-10-2000
+   ```
+
+5. The concatenated matrix:
+   ```
+      [,1] [,2] [,3]
+   [1,]    1    3    5
+   [2,]    2    4    6
+   [3,]    7    9   11
+   [4,]    8   10   12
+   ```
+
+You can run the R script in your local R environment to see the actual outputs.
+
 
 
